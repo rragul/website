@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: my-web
-        image: my-nginx:latest
+        image: my-web:latest
         resources:
           limits:
             memory: "128Mi"
