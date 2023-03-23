@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: my-web
-        image: my-web:latest
+        image: ragul05/my-web:latest
         resources:
           limits:
             memory: "512Mi"
