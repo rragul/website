@@ -1,2 +1,4 @@
-FROM nginx:1.23.3-alpine
-ADD . /usr/share/nginx/html
+FROM python
+COPY index.html index.html
+EXPOSE 5100
+CMD ["python", "-m", "http.server", "5100"]
